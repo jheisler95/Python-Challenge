@@ -3,7 +3,7 @@ import os
 import csv
 
 #path for csv file
-pybank = os.path.join ("resources","budget_data.csv")
+pybank = os.path.join ("resources","beudget_data.csv")
 
 
 #store data
@@ -59,4 +59,3 @@ with open(pybank, newline="") as csvfile:
     print("Average Change: " + "$" + str(int(avg_profit_change)))
     print("Greatest Increase in Profits: " + str(increase_date) + " ($" + str(greatest_profit_increase) + ")")
     print("Greatest Decrease in Profits: " + str(decrease_date) + " ($" + str(greatest_profit_decrease) + ")")
-
